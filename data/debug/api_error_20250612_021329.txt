@@ -1,0 +1,4 @@
+URL: https://api.francetravail.io/partenaire/offresdemploi/v2/offres/search
+Paramètres: {'range': '3150-3299'}
+Code d'erreur: 400
+Contenu: {"codeErreur":"1749687210576","codeHttp":400,"message":"La position de début doit être inférieure ou égale à 3000."}
