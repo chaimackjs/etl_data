@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-06-03 11:47:10",
+  "summary": {
+    "total": 9,
+    "success": 6,
+    "warning": 1,
+    "failed": 2,
+    "not_tested": 0,
+    "success_rate": "66.7%"
+  },
+  "details": {
+    "aws_credentials": {
+      "status": "success",
+      "details": "Identité AWS confirmée: arn:aws:iam::194722407093:user/florian"
+    },
+    "s3_bucket": {
+      "status": "success",
+      "details": "Bucket data-lake-brut accessible et opérationnel."
+    },
+    "rds_connection": {
+      "status": "success",
+      "details": "Connexion RDS réussie. Version: PostgreSQL 17.4 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 12.4.0, 64-bit. Tables: jobs, skills, job_stats"
+    },
+    "lambda_role": {
+      "status": "success",
+      "details": "Rôle IAM 'LambdaETLRole' trouvé avec les politiques: AmazonRDSFullAccess, CloudWatchLogsFullAccess, AmazonS3FullAccess"
+    },
+    "welcome_jungle_scraper": {
+      "status": "warning",
+      "details": "Aucune offre trouvée pour 'data scientist'. Le site a peut-être changé sa structure HTML."
+    },
+    "pole_emploi_api": {
+      "status": "failed",
+      "details": "Erreur lors de la vérification de l'API Pôle Emploi: 400 Client Error: Bad Request for url: https://entreprise.pole-emploi.fr/connexion/oauth2/access_token"
+    },
+    "extraction_module": {
+      "status": "success",
+      "details": "Module d'extraction opérationnel. Welcome to the Jungle: 180 offres. Pôle Emploi: 5 offres."
+    },
+    "transformation_module": {
+      "status": "failed",
+      "details": "Erreur lors de la vérification du module de transformation: No module named 'nltk'"
+    },
+    "loading_module": {
+      "status": "success",
+      "details": "Module de chargement: Local: ✅, S3: ✅, RDS: ❌"
+    }
+  }
+}

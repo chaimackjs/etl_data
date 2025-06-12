@@ -1,0 +1,136 @@
+2025-06-02 23:28:40,839 - __main__ - INFO - Démarrage du déploiement du pipeline d'ingestion...
+2025-06-02 23:28:41,854 - __main__ - WARNING - Fonction Lambda Welcome to the Jungle non trouvée.
+2025-06-02 23:28:41,947 - __main__ - WARNING - Fonction Lambda Pôle Emploi non trouvée.
+2025-06-02 23:28:41,948 - __main__ - INFO - Test des fonctions Lambda...
+2025-06-02 23:28:41,948 - __main__ - INFO - Tests des fonctions Lambda terminés avec succès.
+2025-06-02 23:28:41,948 - __main__ - INFO - Déploiement du pipeline d'ingestion terminé avec succès.
+2025-06-02 23:29:00,923 - __main__ - INFO - Démarrage du déploiement du pipeline d'ingestion...
+2025-06-02 23:29:02,026 - __main__ - WARNING - Fonction Lambda Welcome to the Jungle non trouvée.
+2025-06-02 23:29:02,109 - __main__ - WARNING - Fonction Lambda Pôle Emploi non trouvée.
+2025-06-02 23:29:02,109 - __main__ - INFO - Test des fonctions Lambda...
+2025-06-02 23:29:02,109 - __main__ - INFO - Tests des fonctions Lambda terminés avec succès.
+2025-06-02 23:29:02,109 - __main__ - INFO - Déploiement du pipeline d'ingestion terminé avec succès.
+2025-06-02 23:34:47,471 - __main__ - INFO - Démarrage du déploiement du pipeline d'ingestion...
+2025-06-02 23:34:47,591 - __main__ - INFO - Configuration de l'infrastructure AWS...
+2025-06-02 23:34:48,559 - src.infrastructure.s3_setup - INFO - Le bucket data-lake-brut existe déjà.
+2025-06-02 23:34:48,560 - __main__ - INFO - Bucket S3 data-lake-brut créé ou déjà existant.
+2025-06-02 23:34:50,065 - src.infrastructure.s3_setup - INFO - Structure de dossiers créée avec succès dans le bucket data-lake-brut.
+2025-06-02 23:34:50,068 - __main__ - INFO - Structure de dossiers créée dans le bucket data-lake-brut.
+2025-06-02 23:34:50,068 - __main__ - INFO - Déploiement des fonctions Lambda...
+2025-06-02 23:34:50,069 - __main__ - ERROR - Erreur lors du déploiement des fonctions Lambda: create_lambda_function() got an unexpected keyword argument 'handler'
+2025-06-02 23:34:50,069 - __main__ - ERROR - Échec du déploiement des fonctions Lambda. Arrêt du déploiement.
+2025-06-02 23:39:49,371 - __main__ - INFO - Démarrage du déploiement du pipeline d'ingestion...
+2025-06-02 23:39:49,444 - __main__ - INFO - Configuration de l'infrastructure AWS...
+2025-06-02 23:39:50,397 - src.infrastructure.s3_setup - INFO - Le bucket data-lake-brut existe déjà.
+2025-06-02 23:39:50,398 - __main__ - INFO - Bucket S3 data-lake-brut créé ou déjà existant.
+2025-06-02 23:39:51,511 - src.infrastructure.s3_setup - INFO - Structure de dossiers créée avec succès dans le bucket data-lake-brut.
+2025-06-02 23:39:51,514 - __main__ - INFO - Structure de dossiers créée dans le bucket data-lake-brut.
+2025-06-02 23:39:51,514 - __main__ - INFO - Déploiement des fonctions Lambda...
+2025-06-02 23:39:52,885 - src.infrastructure.lambda_setup - INFO - Rôle IAM wttj_scraper_lambda-role créé avec succès.
+2025-06-02 23:39:53,960 - src.infrastructure.lambda_setup - ERROR - Erreur lors de la création de la fonction Lambda: An error occurred (InvalidParameterValueException) when calling the CreateFunction operation: The role defined for the function cannot be assumed by Lambda.
+2025-06-02 23:39:53,970 - __main__ - ERROR - Échec du déploiement de la fonction Lambda wttj_scraper_lambda.
+2025-06-02 23:39:55,411 - src.infrastructure.lambda_setup - INFO - Rôle IAM pole_emploi_scraper_lambda-role créé avec succès.
+2025-06-02 23:39:56,411 - src.infrastructure.lambda_setup - ERROR - Erreur lors de la création de la fonction Lambda: An error occurred (InvalidParameterValueException) when calling the CreateFunction operation: The role defined for the function cannot be assumed by Lambda.
+2025-06-02 23:39:56,415 - __main__ - WARNING - Échec du déploiement de la fonction Lambda pole_emploi_scraper_lambda.
+2025-06-02 23:39:56,415 - __main__ - WARNING - Cette fonction est désactivée pour le moment en raison du problème d'authentification.
+2025-06-02 23:39:56,415 - __main__ - ERROR - Échec du déploiement des fonctions Lambda. Arrêt du déploiement.
+2025-06-02 23:41:38,419 - __main__ - INFO - Démarrage du déploiement du pipeline d'ingestion...
+2025-06-02 23:41:38,482 - __main__ - INFO - Configuration de l'infrastructure AWS...
+2025-06-02 23:41:39,413 - src.infrastructure.s3_setup - INFO - Le bucket data-lake-brut existe déjà.
+2025-06-02 23:41:39,415 - __main__ - INFO - Bucket S3 data-lake-brut créé ou déjà existant.
+2025-06-02 23:41:41,052 - src.infrastructure.s3_setup - INFO - Structure de dossiers créée avec succès dans le bucket data-lake-brut.
+2025-06-02 23:41:41,054 - __main__ - INFO - Structure de dossiers créée dans le bucket data-lake-brut.
+2025-06-02 23:41:41,055 - __main__ - INFO - Déploiement des fonctions Lambda...
+2025-06-02 23:41:42,277 - src.infrastructure.lambda_setup - INFO - Rôle IAM wttj_scraper_lambda-role existe déjà.
+2025-06-02 23:41:45,770 - src.infrastructure.lambda_setup - INFO - Fonction Lambda wttj_scraper_lambda créée avec succès et configurée pour s'exécuter quotidiennement.
+2025-06-02 23:41:45,775 - __main__ - INFO - Fonction Lambda wttj_scraper_lambda déployée avec succès.
+2025-06-02 23:41:46,683 - src.infrastructure.lambda_setup - INFO - Rôle IAM pole_emploi_scraper_lambda-role existe déjà.
+2025-06-02 23:41:49,700 - src.infrastructure.lambda_setup - INFO - Fonction Lambda pole_emploi_scraper_lambda créée avec succès et configurée pour s'exécuter quotidiennement.
+2025-06-02 23:41:49,713 - __main__ - INFO - Fonction Lambda pole_emploi_scraper_lambda déployée avec succès.
+2025-06-02 23:41:49,714 - __main__ - INFO - Infrastructure AWS déployée avec succès.
+2025-06-02 23:41:49,715 - __main__ - INFO - Test des fonctions Lambda...
+2025-06-02 23:41:49,715 - __main__ - INFO - Test de la fonction Lambda Welcome to the Jungle...
+2025-06-02 23:41:49,716 - __main__ - ERROR - Erreur lors du test des fonctions Lambda: invoke_lambda_function() got an unexpected keyword argument 'payload'
+2025-06-02 23:41:49,717 - __main__ - ERROR - Échec des tests des fonctions Lambda.
+2025-06-02 23:42:52,577 - __main__ - INFO - Démarrage du déploiement du pipeline d'ingestion...
+2025-06-02 23:42:52,641 - __main__ - INFO - Configuration de l'infrastructure AWS...
+2025-06-02 23:42:53,526 - src.infrastructure.s3_setup - INFO - Le bucket data-lake-brut existe déjà.
+2025-06-02 23:42:53,528 - __main__ - INFO - Bucket S3 data-lake-brut créé ou déjà existant.
+2025-06-02 23:42:54,669 - src.infrastructure.s3_setup - INFO - Structure de dossiers créée avec succès dans le bucket data-lake-brut.
+2025-06-02 23:42:54,671 - __main__ - INFO - Structure de dossiers créée dans le bucket data-lake-brut.
+2025-06-02 23:42:54,673 - __main__ - INFO - Déploiement des fonctions Lambda...
+2025-06-02 23:42:55,628 - src.infrastructure.lambda_setup - INFO - Rôle IAM wttj_scraper_lambda-role existe déjà.
+2025-06-02 23:42:56,329 - src.infrastructure.lambda_setup - INFO - La fonction Lambda wttj_scraper_lambda existe déjà.
+2025-06-02 23:42:56,334 - __main__ - INFO - Fonction Lambda wttj_scraper_lambda déployée avec succès.
+2025-06-02 23:42:57,230 - src.infrastructure.lambda_setup - INFO - Rôle IAM pole_emploi_scraper_lambda-role existe déjà.
+2025-06-02 23:42:57,915 - src.infrastructure.lambda_setup - INFO - La fonction Lambda pole_emploi_scraper_lambda existe déjà.
+2025-06-02 23:42:57,919 - __main__ - INFO - Fonction Lambda pole_emploi_scraper_lambda déployée avec succès.
+2025-06-02 23:42:57,919 - __main__ - INFO - Infrastructure AWS déployée avec succès.
+2025-06-02 23:42:57,920 - __main__ - INFO - Test des fonctions Lambda...
+2025-06-02 23:42:57,920 - __main__ - INFO - Test de la fonction Lambda Welcome to the Jungle...
+2025-06-02 23:42:57,920 - __main__ - ERROR - Erreur lors du test des fonctions Lambda: invoke_lambda_function() got an unexpected keyword argument 'payload'
+2025-06-02 23:42:57,921 - __main__ - ERROR - Échec des tests des fonctions Lambda.
+2025-06-02 23:43:01,263 - __main__ - INFO - Démarrage du déploiement du pipeline d'ingestion...
+2025-06-02 23:43:01,338 - __main__ - INFO - Configuration de l'infrastructure AWS...
+2025-06-02 23:43:02,259 - src.infrastructure.s3_setup - INFO - Le bucket data-lake-brut existe déjà.
+2025-06-02 23:43:02,265 - __main__ - INFO - Bucket S3 data-lake-brut créé ou déjà existant.
+2025-06-02 23:43:03,431 - src.infrastructure.s3_setup - INFO - Structure de dossiers créée avec succès dans le bucket data-lake-brut.
+2025-06-02 23:43:03,439 - __main__ - INFO - Structure de dossiers créée dans le bucket data-lake-brut.
+2025-06-02 23:43:03,440 - __main__ - INFO - Déploiement des fonctions Lambda...
+2025-06-02 23:43:04,386 - src.infrastructure.lambda_setup - INFO - Rôle IAM wttj_scraper_lambda-role existe déjà.
+2025-06-02 23:43:05,047 - src.infrastructure.lambda_setup - INFO - La fonction Lambda wttj_scraper_lambda existe déjà.
+2025-06-02 23:43:05,052 - __main__ - INFO - Fonction Lambda wttj_scraper_lambda déployée avec succès.
+2025-06-02 23:43:05,933 - src.infrastructure.lambda_setup - INFO - Rôle IAM pole_emploi_scraper_lambda-role existe déjà.
+2025-06-02 23:43:06,708 - src.infrastructure.lambda_setup - INFO - La fonction Lambda pole_emploi_scraper_lambda existe déjà.
+2025-06-02 23:43:06,713 - __main__ - INFO - Fonction Lambda pole_emploi_scraper_lambda déployée avec succès.
+2025-06-02 23:43:06,713 - __main__ - INFO - Infrastructure AWS déployée avec succès.
+2025-06-02 23:43:06,714 - __main__ - INFO - Test des fonctions Lambda...
+2025-06-02 23:43:06,714 - __main__ - INFO - Test de la fonction Lambda Welcome to the Jungle...
+2025-06-02 23:43:06,714 - __main__ - ERROR - Erreur lors du test des fonctions Lambda: invoke_lambda_function() got an unexpected keyword argument 'payload'
+2025-06-02 23:43:06,715 - __main__ - ERROR - Échec des tests des fonctions Lambda.
+2025-06-02 23:43:49,586 - __main__ - INFO - Démarrage du déploiement du pipeline d'ingestion...
+2025-06-02 23:43:49,664 - __main__ - INFO - Configuration de l'infrastructure AWS...
+2025-06-02 23:43:50,597 - src.infrastructure.s3_setup - INFO - Le bucket data-lake-brut existe déjà.
+2025-06-02 23:43:50,600 - __main__ - INFO - Bucket S3 data-lake-brut créé ou déjà existant.
+2025-06-02 23:43:51,994 - src.infrastructure.s3_setup - INFO - Structure de dossiers créée avec succès dans le bucket data-lake-brut.
+2025-06-02 23:43:52,001 - __main__ - INFO - Structure de dossiers créée dans le bucket data-lake-brut.
+2025-06-02 23:43:52,002 - __main__ - INFO - Déploiement des fonctions Lambda...
+2025-06-02 23:43:53,008 - src.infrastructure.lambda_setup - INFO - Rôle IAM wttj_scraper_lambda-role existe déjà.
+2025-06-02 23:43:53,694 - src.infrastructure.lambda_setup - INFO - La fonction Lambda wttj_scraper_lambda existe déjà.
+2025-06-02 23:43:53,699 - __main__ - INFO - Fonction Lambda wttj_scraper_lambda déployée avec succès.
+2025-06-02 23:43:54,737 - src.infrastructure.lambda_setup - INFO - Rôle IAM pole_emploi_scraper_lambda-role existe déjà.
+2025-06-02 23:43:55,762 - src.infrastructure.lambda_setup - INFO - La fonction Lambda pole_emploi_scraper_lambda existe déjà.
+2025-06-02 23:43:55,770 - __main__ - INFO - Fonction Lambda pole_emploi_scraper_lambda déployée avec succès.
+2025-06-02 23:43:55,771 - __main__ - INFO - Infrastructure AWS déployée avec succès.
+2025-06-02 23:43:55,772 - __main__ - INFO - Test des fonctions Lambda...
+2025-06-02 23:43:55,772 - __main__ - INFO - Test de la fonction Lambda Welcome to the Jungle...
+2025-06-02 23:43:57,009 - src.infrastructure.lambda_setup - INFO - Fonction Lambda wttj_scraper_lambda invoquée avec succès.
+2025-06-02 23:43:57,011 - __main__ - INFO - Fonction Lambda Welcome to the Jungle testée avec succès.
+2025-06-02 23:43:57,012 - __main__ - INFO - Test de la fonction Lambda Pôle Emploi...
+2025-06-02 23:43:57,012 - __main__ - WARNING - Cette fonction est désactivée pour le moment en raison du problème d'authentification.
+2025-06-02 23:43:57,012 - __main__ - WARNING - Veuillez consulter le guide de dépannage pour résoudre ce problème.
+2025-06-02 23:43:57,013 - __main__ - INFO - Tests des fonctions Lambda terminés avec succès.
+2025-06-02 23:43:57,013 - __main__ - INFO - Déploiement du pipeline d'ingestion terminé avec succès.
+2025-06-02 23:43:57,733 - __main__ - INFO - Démarrage du déploiement du pipeline d'ingestion...
+2025-06-02 23:43:57,790 - __main__ - INFO - Configuration de l'infrastructure AWS...
+2025-06-02 23:43:58,764 - src.infrastructure.s3_setup - INFO - Le bucket data-lake-brut existe déjà.
+2025-06-02 23:43:58,766 - __main__ - INFO - Bucket S3 data-lake-brut créé ou déjà existant.
+2025-06-02 23:43:59,915 - src.infrastructure.s3_setup - INFO - Structure de dossiers créée avec succès dans le bucket data-lake-brut.
+2025-06-02 23:43:59,923 - __main__ - INFO - Structure de dossiers créée dans le bucket data-lake-brut.
+2025-06-02 23:43:59,924 - __main__ - INFO - Déploiement des fonctions Lambda...
+2025-06-02 23:44:00,866 - src.infrastructure.lambda_setup - INFO - Rôle IAM wttj_scraper_lambda-role existe déjà.
+2025-06-02 23:44:01,565 - src.infrastructure.lambda_setup - INFO - La fonction Lambda wttj_scraper_lambda existe déjà.
+2025-06-02 23:44:01,569 - __main__ - INFO - Fonction Lambda wttj_scraper_lambda déployée avec succès.
+2025-06-02 23:44:02,476 - src.infrastructure.lambda_setup - INFO - Rôle IAM pole_emploi_scraper_lambda-role existe déjà.
+2025-06-02 23:44:03,123 - src.infrastructure.lambda_setup - INFO - La fonction Lambda pole_emploi_scraper_lambda existe déjà.
+2025-06-02 23:44:03,126 - __main__ - INFO - Fonction Lambda pole_emploi_scraper_lambda déployée avec succès.
+2025-06-02 23:44:03,127 - __main__ - INFO - Infrastructure AWS déployée avec succès.
+2025-06-02 23:44:03,127 - __main__ - INFO - Test des fonctions Lambda...
+2025-06-02 23:44:03,127 - __main__ - INFO - Test de la fonction Lambda Welcome to the Jungle...
+2025-06-02 23:44:04,272 - src.infrastructure.lambda_setup - INFO - Fonction Lambda wttj_scraper_lambda invoquée avec succès.
+2025-06-02 23:44:04,274 - __main__ - INFO - Fonction Lambda Welcome to the Jungle testée avec succès.
+2025-06-02 23:44:04,276 - __main__ - INFO - Test de la fonction Lambda Pôle Emploi...
+2025-06-02 23:44:04,276 - __main__ - WARNING - Cette fonction est désactivée pour le moment en raison du problème d'authentification.
+2025-06-02 23:44:04,276 - __main__ - WARNING - Veuillez consulter le guide de dépannage pour résoudre ce problème.
+2025-06-02 23:44:04,276 - __main__ - INFO - Tests des fonctions Lambda terminés avec succès.
+2025-06-02 23:44:04,276 - __main__ - INFO - Déploiement du pipeline d'ingestion terminé avec succès.
