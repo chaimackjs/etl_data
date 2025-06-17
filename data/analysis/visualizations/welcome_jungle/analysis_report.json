@@ -1,0 +1,121 @@
+{
+    "metadata": {
+        "total_jobs": 246,
+        "generated_at": "2025-06-16T22:08:30.387110",
+        "date_range": {
+            "min": "2025-06-13",
+            "max": "2025-06-15"
+        }
+    },
+    "contract_types": {
+        "counts": {
+            "ALTERNANCE": 98,
+            "STAGE": 66,
+            "OTHER": 58,
+            "CDI": 16,
+            "CDD": 8
+        },
+        "percentages": {
+            "ALTERNANCE": 39.84,
+            "STAGE": 26.83,
+            "OTHER": 23.58,
+            "CDI": 6.5,
+            "CDD": 3.25
+        },
+        "total": 246
+    },
+    "locations": {
+        "top_locations": {
+            "Télétravail / Remote": 146,
+            "Paris": 67,
+            "Nanterre": 25,
+            "Marseille": 8
+        },
+        "percentages": {
+            "Télétravail / Remote": 59.35,
+            "Paris": 27.24,
+            "Nanterre": 10.16,
+            "Marseille": 3.25
+        },
+        "unique_locations": 4,
+        "total": 246
+    },
+    "salaries": {
+        "stats": {
+            "count": 58,
+            "min": 10200.0,
+            "max": 11400.0,
+            "mean": 24523.310344827587,
+            "median": 14400.0,
+            "std": 26643.05998060408,
+            "percentage_with_salary": 23.577235772357724
+        },
+        "by_contract": [
+            {
+                "contract_type_std": "ALTERNANCE",
+                "mean": 18000.0,
+                "median": 18000.0,
+                "count": 8
+            },
+            {
+                "contract_type_std": "OTHER",
+                "mean": 29504.470588235294,
+                "median": 11244.0,
+                "count": 34
+            },
+            {
+                "contract_type_std": "STAGE",
+                "mean": 17200.0,
+                "median": 17200.0,
+                "count": 16
+            }
+        ]
+    },
+    "technologies": {
+        "counts": {
+            "python": 0,
+            "java": 0,
+            "javascript": 0,
+            "react": 0,
+            "angular": 0,
+            "vue": 0,
+            "node": 0,
+            "php": 0,
+            "sql": 0,
+            "nosql": 0,
+            "mongodb": 0,
+            "postgresql": 0,
+            "mysql": 0,
+            "aws": 0,
+            "azure": 0,
+            "gcp": 0,
+            "docker": 0,
+            "kubernetes": 0,
+            "devops": 0,
+            "machine_learning": 0,
+            "data_science": 0,
+            "ai": 0
+        },
+        "total_mentions": 0,
+        "percentage_with_tech": 0.0
+    },
+    "experience": {
+        "counts": {
+            "Tous niveaux d'expérience": 230,
+            "JUNIOR": 16
+        },
+        "percentages": {
+            "Tous niveaux d'expérience": 93.5,
+            "JUNIOR": 6.5
+        },
+        "total": 246,
+        "experience_years": {
+            "min_experience_avg": 0.0,
+            "max_experience_avg": 2.0,
+            "min_experience_median": 0.0,
+            "max_experience_median": 2.0,
+            "count_with_experience": 16,
+            "percentage_with_experience": 6.504065040650407
+        }
+    }
+}

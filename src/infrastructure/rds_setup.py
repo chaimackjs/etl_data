@@ -30,7 +30,7 @@ def get_rds_connection():
     try:
         # Récupérer les paramètres de connexion
         host = os.getenv('DB_HOST')
-        port = os.getenv('DB_PORT')
+        port = os.getenv('DB_PORT', '5432')
         dbname = os.getenv('DB_NAME')
         user = os.getenv('DB_USER')
         password = os.getenv('DB_PASSWORD')
